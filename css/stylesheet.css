@@ -1,0 +1,100 @@
+#header { background-color: black;
+         
+}
+#menu li { display: inline-block; 
+             padding: 0px  20px;
+             font-family: omnes-pro;
+             font-weight: 400;
+             font-size: 13px;
+             
+             letter-spacing: 2.33px;
+             line-height: 1em;
+ }             
+     
+.navbar a {color: #fff;
+           text-decoration: none;
+}   
+.navbar a:hover {    color: #a67f58;
+}              
+
+.navbar { text-align: center;
+} 
+
+.navbar img { height: 200px;
+              width: 200px;
+              
+}
+#banner { background-image: url("../images/banner.png" );
+        padding:30px ;
+       
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center center;
+        background-size: cover; }
+
+#banner h2 {background-color: rgba(255, 255, 255, 0.726);
+          padding-top: 250px;
+          padding-bottom: 250px;
+          padding-left: 60px;
+          padding-right: 60px;
+          border: 2px solid white;}
+
+#section-hello {background-image: url("../images/Makeupbg.jpg" );
+               background-repeat: no-repeat;
+               position: relative;
+               background-position: center center;
+               background-size: cover; 
+
+}   
+#section-hello p {padding:30px ;
+                  color: rgba(128,128,128,.9);
+                  font-size: 16px;
+                  line-height: 1.8em;
+
+}       
+#about1 {background: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1485482424637-GQGS51Q3203KLCBWIA66/ke17ZwdGBToddI8pDm48kPtRZ_-Of0eqM9r1dRvliRl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0prfa1Z6IeUrCPboCAmmHZnFGLgB9zNT32qiWNNlcov3OavIiLKH5Iy-9eb-as2wug/Makeup+Powder.jpg?format=2500w);
+         background-repeat: no-repeat;
+         position: relative;
+         background-position: center center;
+         background-size: cover;
+         padding-top: 150px;
+         padding-bottom: 20px; }
+ 
+#about1 h3 {color: dimgrey;
+            font-size: 72px;
+            font-family: ltc-bodoni-175;
+            font-weight: 400;
+            margin-bottom: 30px
+}  
+#about1 p { color: rgba(128,128,128,.9);
+            font-size: 16px;
+            line-height: 1.8em;
+            font-family: ltc-bodoni-175;
+            margin-bottom: 2rem;
+       }  
+#about1 button {background-color: black;
+                border-radius: 0;
+                }  
+  
+#about1 a {color: rgb(255, 255, 255);
+          text-decoration: none;} 
+
+footer {background-color: black;}
+ 
+footer i {color:white;
+          font-size: 30px;
+          margin-top: 50px;
+          padding : 7px;
+
+}
+footer p {font-size: 76%;
+          color: white;
+          font-family: ratio-display;
+          font-weight: 400;
+          letter-spacing: .4px;
+          margin: 30px;}
+
+   
+
+        
+
