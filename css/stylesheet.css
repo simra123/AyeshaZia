@@ -122,7 +122,23 @@ footer p {font-size: 76%;
         line-height: 1.6em;
         color: rgba(0,0,0,.5);
     }      
-             
+.hydrafacial p , ul  {    font-family: poppins;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: .4px;
+        line-height: 1.6em;
+        color: rgba(0,0,0,.5);}   
+
+.hydrafacial h3 {    font-family: ltc-bodoni-175;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 19px;
+        line-height: 1.4em;
+        letter-spacing: .05em;
+        margin-bottom: 30px;
+
+        }           
 
  @media only screen and (max-width: 520px)  {
         #menu li {  
