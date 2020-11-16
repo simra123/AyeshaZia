@@ -34,7 +34,7 @@
               width: 200px;
               
 }
-/*#banner { background-image: url("../images/banner.png" );
+#banner { background-image: url("../images/banner.png" );
         padding:30px ;
        
         background-repeat: no-repeat;
@@ -47,7 +47,7 @@
           padding-bottom: 250px;
           padding-left: 60px;
           padding-right: 60px;
-          border: 2px solid white;}*/
+          border: 2px solid white;}
 
 #section-hello {background-image: url("../images/Makeupbg.jpg" );
                background-repeat: no-repeat;
@@ -83,11 +83,11 @@
             font-family: ltc-bodoni-175;
             margin-bottom: 2rem;
        }  
-#about1 button {background-color: black;
+#about1 , #contact button {background-color: black;
                 border-radius: 0;
                 }  
   
-#about1 a {color: rgb(255, 255, 255);
+#about1 , #contact a {color: rgb(255, 255, 255);
           text-decoration: none;} 
 
 footer {background-color: black;}
@@ -125,9 +125,9 @@ footer p {font-size: 76%;
 .hydrafacial p , ul  {    font-family: poppins;
         font-weight: 400;
         font-style: normal;
-        font-size: 15px;
+        font-size: 17px;
         letter-spacing: .4px;
-        line-height: 1.6em;
+        line-height: 1.9em;
         color: rgba(0,0,0,.5);}   
 
 .hydrafacial h3 {    font-family: ltc-bodoni-175;
@@ -139,6 +139,19 @@ footer p {font-size: 76%;
         margin-bottom: 30px;
 
         }           
+ #contact h3 {    font-family: ltc-bodoni-175;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 42px;
+        line-height: 1.1em;
+        letter-spacing: .05em;
+        text-transform: uppercase;}  
+ #contact label {font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: .4px;
+        line-height: 1.6em;
+        color: rgba(0,0,0,.5);}            
 
  @media only screen and (max-width: 520px)  {
         #menu li {  
