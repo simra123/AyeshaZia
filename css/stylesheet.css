@@ -11,14 +11,7 @@
              letter-spacing: 2.33px;
              line-height: 1em;
  }             
-.has-dropdown .dropdown-content {    position: absolute;
-        
-         opacity: 0;
-        z-index: -1;
-        
-        background: #fff;
-        
-        visibility: hidden;}    
+   
 .navbar .active { color: #a67f58;}
  
      
@@ -27,7 +20,10 @@
 }   
 .navbar a:hover {    color: #a67f58;
 }              
-
+.navbar .dropdown-menu {background-color: black;
+                        border: 1px solid rgb(255 255 255 / 15%);
+                        border-radius: 0;
+                        color: transparent;}
 
 
 .navbar img { height: 200px;
