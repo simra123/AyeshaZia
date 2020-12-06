@@ -2,39 +2,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Custom styles file -->
     <link href="css/stylesheet.css" rel="stylesheet" />
+
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontawesome code -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- pages title -->
     <title>Ayesha Zia Mua</title>
 </head>
-<body>
-    <div id="header">
-    <!-- navbar starts here  -->
-      <div class="container"> 
-          <div class="navbar p-0">
-                <div class="row m-0">
-                    <div class="col-12 p-0">
-                       <ul id="menu">
-                           <!-- logo -->
-                            <img class="img-fluid" width="130" src="images/logo.png">
-                            <!-- nav links -->
-                            <li ><a class="active" href=" index.html">WELCOME</a></li>
-                            <li ><a  href="about/about.html">ABOUT</a></li>
-                            <li class="dropdown">
-                              <a href="tabs/tabs.html"> SERVICES </a>
-                            </li>
-                            <li ><a href="portfolio/portfolio.html">PORTFOLIO</a></li>
-                            <li><a href="contact/contact.html">CONTACT</a></li>
 
-                        </ul>
-                    </div>
+<body>
+    <section id="header" >
+        <!-- navbar starts from here -->
+        <div class="container">
+            <!-- collapsable navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+
+                <!-- nav brand -->
+                <a class="navbar-brand " href="#"><img src="images/logo.png" alt="logo" width="180" class="img-fluid"></a>
+
+                 <!-- nav button for sr only -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Nav links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- links at right -->
+                    <ul id="menu" class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Welcome<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tabs/tabs.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio/portfolio.html">Porfolio</a>
+                        </li>
+                        <li class="nav-item mr-sm-5">
+                            <a class="nav-link" href="contact/contact.html">Contact</a>
+                        </li>
+                    </ul>    
+                    
                 </div>
-             </div>          
-        </div>   
-     </div>
-<!-- Navbar ends here   -->
+                <!-- Nav bar link here -->
+            </nav>
+        </div>
+    </section>
+    <!-- Navbar ends here   -->
+       
+              
+    
                             
   <div id="banner">
       <img class="img-fluid" src="images/banner.jpeg" width="1500" alt="banner">
@@ -65,13 +95,13 @@
             <img src="images/col3.jpeg"  width="400" alt="tour the studio" class="img-fluid">
         </div>
       </div>
-      <!-- two pitures of model and aunty -->
+      <!-- one pitures of model and artist-->
       <div class="row mb-5">
           <div class="col-6">
-            <img src="https://i.pinimg.com/736x/d6/58/05/d6580543a45d994cc8b0c753e687949f--spring-photography-black-white-photography.jpg"  width="800" alt="tour the studio" class="img-fluid">
+            <img src="images/jill3.jpeg"  width="800" alt="tour the studio" class="img-fluid">
           </div>
           <div class="col-6">
-            <img src="https://i.pinimg.com/736x/d6/58/05/d6580543a45d994cc8b0c753e687949f--spring-photography-black-white-photography.jpg"  width="800" alt="tour the studio" class="img-fluid">
+            <img src="images/col25.jpeg"  width="900" alt="tour the studio" class="img-fluid">
           </div>
       </div>
   </div>     
@@ -81,18 +111,26 @@
   <footer class="gradient2">
       <div class="container">
           <div class="row ">
+
+              <!-- fontawsome icons  -->
               <div class="col-12 text-center">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
+
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/AyeshaziaMUAofficial/"><i class="fab fa-facebook-f"></i></a>
+                    <!-- email -->
+                    <a href="ayeshaziamuaofficial@outlook.com"><i class="fas fa-envelope"></i></i></a>
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/ayeshaziaofficial/?hl=en"><i class="fab fa-instagram"></i></a>
               </div>
               <div class="col-12 text-center">
-                  <p>©2020 Jill Stonier, Professional Makeup Artist. All Rights Reserved.   |   591 Market Street   •   St. Augustine, FL 32095   |   904.599.2272   |   jill@jillstonier.com</p>
+                    <p>©2020 Ayesha Zia, Professional Makeup Artist. All Rights Reserved.   | 92+3172343679 | ayeshaziamuaofficial@outlook.com 
+                    </p>
               </div>
           </div>
       </div>
   </footer>
-  
+
+    <!-- Bootstrap javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
