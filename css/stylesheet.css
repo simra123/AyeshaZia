@@ -1,6 +1,7 @@
 /* body */
 body {
          font-family: poppins !important;
+        background-image: url(../images/bgbody.jpg);
  }
 
  /* navbar css */
@@ -64,22 +65,25 @@ footer p {font-size:15px;
 
         margin: 30px 0;
 }          
-.aboutjill h3{
+.aboutjill h3 , #contact h3{ 
                 
                 font-weight: 400;
                 font-style: italic;
                 font-size: 3vw;
                 line-height: 1.1em;
                 letter-spacing: .05em;
-                color: rgba(0,0,0,.5);
-        }          
-.aboutjill p {
-        font-weight: 400;
-        
-        font-size: 1.4vw;
+                color: #060606;
+                -webkit-text-stroke: 0.5px #e7bbb5;
+       }
+              
+.aboutjill p , #contact p {
+        font-weight: 700; 
+        color: black;
+        -webkit-text-stroke: 0.3px #f7f2f1;
+        font-size: 1.5vw;
         letter-spacing: .4px;
         line-height: 1.8em;
-        color: rgba(0,0,0,.5);
+       
         
     }      
 .hydrafacial p ,.hydrafacial ul  {    
@@ -118,7 +122,8 @@ footer p {font-size:15px;
 /* contact icons */
 #contact a {
         font-size: 35px;
-        color: #b76f75 ;
+        color: black;
+        -webkit-text-stroke: 0.5px #e7bbb5;
         margin-right: 15px;
         margin-bottom: 20px;
 
@@ -245,13 +250,113 @@ footer p {font-size:15px;
 }
       
       
-     
+.marginimage{
+  width: 100%;
+      margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+                          
+
+/**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+  padding: 60px 0;
+}
+section .section-title{
+  text-align:center;
+  color:#b76f75;
+  -webkit-text-stroke: 1px black;
+  margin-bottom:50px;
+  text-transform:uppercase;
+}
+
+#what-we-do .card{
+  padding: 1rem!important;
+  border: none;
+  margin-bottom:1rem;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#what-we-do .card:hover{
+  -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+  padding-left:60px;
+   
+}
+#what-we-do .card .card-block a{
+  color: #b86f77 !important;
+  font-weight:700;
+  text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+  display:none;
   
+}
+#what-we-do .card:hover .card-block a i{
+  display:inline-block;
+  font-weight:700;
+  
+}
+#what-we-do .card .card-block:before{
+  font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #e28a35;
+    left: 0;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before , .block-2:before{
+    background-image: url(http://www.pngall.com/wp-content/uploads/4/Pink-Makeup-Brush-Set-PNG.png);
+    background-size: 100px 100px;
+    width: 100px; 
+    height: 100px;
+    content:"";
+    
+    
+}
+#what-we-do h3 {
+        color: #b76f75;
+        font-weight: 800;
+        font-size: 20px;
+}
 
-              
-
-
-                             
+ 
+#what-we-do .card .block-3:before{
+        background-image: url(http://www.pngall.com/wp-content/uploads/4/Pink-Makeup-Brush-Set-PNG-Free-Image.png);
+        background-size: 100px 100px;
+        width: 100px; 
+        height: 100px;
+        content:"";
+}
+#what-we-do .card .block-4:before{
+        background-image: url(http://www.pngall.com/wp-content/uploads/4/Makeup-Brush-PNG-Image-File.png);
+        background-size: 100px 100px;
+        width: 100px; 
+        height: 100px;
+        content:"";
+}
+/*
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+} */
+#what-we-do .card:hover .card-block:before{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);  
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
 
                         
                                     

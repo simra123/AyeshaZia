@@ -20,3 +20,5 @@ function img4(){
 function img5(){
     window.open("file:///E:/Ayesha%20Zia/images/col15.jpeg")
 }
+  var b = document.getElementsByTagName("a")
+  console.log(b)
